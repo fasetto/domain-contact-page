@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  width: 100dvw;
+  height: 100dvh;
+}
+
+body {
+  /* background: linear-gradient(45deg, #2821ad, #af63bd) */
+  background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+}

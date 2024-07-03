@@ -1,7 +1,8 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-  // readonly VITE_XXX: string;
+  readonly VITE_EMAIL: string;
+  readonly VITE_PHONE: string;
 }
 
 interface ImportMeta {
